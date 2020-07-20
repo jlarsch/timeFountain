@@ -8,11 +8,11 @@
 //uncomment to check serial monitor and see LED heartbeat
 //Tactile Switch needs to be pressed longer in debug mode to change mode
 
-#define BASE_FREQ 45
+#define BASE_FREQ 50
 #define MIN_FREQUENCY_OFFSET -8.0
 #define MAX_FREQUENCY_OFFSET 8.0
-#define MIN_BRIGHTNESS 2          
-#define MAX_BRIGHTNESS 10.0       
+#define MIN_BRIGHTNESS 0          
+#define MAX_BRIGHTNESS 20.0       
 #define NumofModes 4              // Number of Operational modes
 
 const byte SValve = 3;            // pin for Solenoid Valve
